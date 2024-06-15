@@ -1,0 +1,75 @@
+.cardFS {
+    margin: 100px auto 45px auto;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.titleFS {
+    font-size: 38px;
+    font-weight: 400;
+    padding: 25px 0 25px 0;
+}
+
+.poleFS {
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.vvodFS {
+    width: 650px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.butnFS {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    background: #177E46;
+    border-radius: 18px;
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.butnFS:before, .butnFS:after {
+    content: "";
+    position: absolute;
+    height: 200px;
+    left: -50%;
+    margin-top: -100px;
+    top: 50%;
+    width: 220px;
+    border-radius: 50%;
+    opacity: 0.3;
+    z-index: -1;
+    transform: scale(0);
+}
+.butnFS:before {
+    background: #f4f4f4;
+    transition: .8s ease-out;
+}
+.butnFS:after {
+    transition: .4s ease-in .3s;
+}
+.butnFS:hover {
+    color: #177E46;
+}
+.butnFS:hover:before, .butnFS:hover:after {
+    opacity: 1;
+    transform: scale(4);
+}

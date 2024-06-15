@@ -1,0 +1,29 @@
+.FormTest {
+    width: 780px;
+    height: 450px;
+    margin: 60px auto 360px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 23px 27px 57px 0px #ababab;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.titleTest {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300;
+    padding: 20px;
+    margin: 0;
+}
+
+.textTest {
+    margin: 10px 0 10px 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #303030;
+    font-size: 24px;
+    text-decoration: none;
+}

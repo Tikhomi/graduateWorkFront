@@ -1,0 +1,50 @@
+.cardT {
+    margin: 80px auto 40px auto;
+    width: 1400px;
+    height: auto;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.cardT-in {
+    display: block;
+    padding: 20px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+.cardT-title {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 20px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80%;
+    text-align: center;
+}
+
+.cardT p {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 80%;
+    line-height: 30px;
+}
+
+.butnT {
+    font-family: 'Montserrat', sans-serif;
+    background: #177E46;
+    color: #fff;
+    border: none;
+    font-size: 26px;
+    width: 280px;
+    padding: 15px 39px;
+    border-radius: 14px;
+    margin-left: 630px;
+    cursor: pointer;
+}
+.butnT:hover {
+    background: #5f9c7b;
+}

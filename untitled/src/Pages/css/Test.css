@@ -1,0 +1,82 @@
+body {
+    background: url("../../Components/img/main.png");
+    background-size: 100% auto;
+    background-repeat: round;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000000;
+}
+
+.titleTest {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cardTest {
+    margin: 100px auto 45px auto;
+    width: 800px;
+    height: 570px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.cardT-in {
+    display: block;
+    padding: 20px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+.titleTest {
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px 0 30px 0;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 80%;
+    text-align: center;
+}
+
+.textTest {
+    margin: 0 auto 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 80%;
+    line-height: 30px;
+}
+
+.resultTest {
+    margin: 0 35px 20px 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 22px;
+    line-height: 80%;
+    line-height: 30px;
+}
+
+.cardT-butn {
+    overflow: hidden;
+    display: flex;
+    padding: 10px 40px;
+    margin: 0 auto 15px;
+    width: 270px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background: #177E46;
+    border-radius: 14px;
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+

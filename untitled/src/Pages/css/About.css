@@ -1,0 +1,92 @@
+body {
+  background: url("../../Components/img/main.png");
+  background-size: 100% auto;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+a {
+  font-size: 19px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-left: 60px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #74b78b;
+  text-decoration: none;
+}
+
+.name {
+  padding-right: 90px;
+  padding-left: 10px;
+  font-size: 26px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.number {
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  padding-left: 0;
+  margin-left: 100px;
+  padding: 4px 4px 4px 4px;
+}
+.number:hover {
+  color: #FFFFFF;
+}
+
+li {
+  display: inline;
+}
+
+/* тело сайта */
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.cardk {
+  margin: 100px auto 45px auto;
+  width: 1200px;   
+  height: 500px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.cardk-in {
+  display: block;
+  padding: 20px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+
+.cardk-title {
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px 0 30px 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 80%;
+  text-align: center;
+}
+
+.cardk p {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 80%;
+  line-height: 30px;
+}

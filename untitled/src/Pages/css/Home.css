@@ -1,0 +1,379 @@
+body {
+    background: url("../../Components/img/main.png");
+    background-size: 100% auto;
+    background-repeat: round;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000000;
+}
+
+/* шапка сайта */
+header {
+  background-color: #177E46;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+a {
+  font-size: 19px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding-left: 60px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #74b78b;
+  text-decoration: none;
+}
+
+.name {
+  padding-right: 90px;
+  padding-left: 10px;
+  font-size: 26px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.number {
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  padding-left: 0;
+  margin-left: 100px;
+  padding: 4px 4px 4px 4px;
+}
+.number:hover {
+  color: #FFFFFF;
+}
+
+li {
+  display: inline;
+}
+
+/* 1 часть тела сайта */
+
+.text1 {
+  width: 800px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #0B3C21;
+  text-align: right;
+  padding: 46px 21px 63px 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+  margin: 110px 0 0 60px;
+  border-radius: 60px;
+  line-height: 48px;
+}
+
+.pic1 {
+  width: 525px;
+  height: 525px;
+  margin: 0 0 0 0;
+  float: right;
+}
+
+.btn1 {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px 40px;
+  margin: 35px 0 0 300px;
+  width: 346px;
+  height: 80px;
+  font-weight: 600;
+  line-height: 30px;
+  color: white;
+  font-size: 25px;
+  background: #177E46;
+  border-radius: 30px;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+  transition: 1.5s;
+}
+  .btn1:before, .btn1:after {
+      content: "";
+      position: absolute;
+      height: 200px;
+      left: -50%;
+      margin-top: -100px;
+      top: 50%;
+      width: 220px;
+      border-radius: 50%;
+      opacity: 0.3;
+      z-index: -1;
+      transform: scale(0);
+  }
+  .btn1:before {
+      background: #f4f4f4;
+      transition: .8s ease-out;
+  }
+  .btn1:after {
+      transition: .4s ease-in .3s;
+  }
+  .btn1:hover {
+      color: #177E46;
+  }
+  .btn1:hover:before, .btn1:hover:after {
+      opacity: 1;
+      transform: scale(4);
+  }
+
+/* 2 часть тела сайта */
+
+.titleServ {
+  font-size: 46px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.second {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+HashLink {
+  text-decoration: none;
+}
+
+.cardK {
+  margin-bottom: 65px;
+  margin-left: 78px;
+  width: 400px;   
+  height: 205px;
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 30px;
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+  transition: transform 0.2s ease-in;
+
+}
+
+.cardK:hover {
+  transform: translateY(-15px);
+}
+
+.card-linkK {
+  display: block;
+  padding: 20px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s ease-in;
+}
+
+.card-linkK:hover {
+  color: #a9a9a9;
+}
+
+.cardK:last-child, .card:nth-last-child(2) {
+ margin-bottom: 0; 
+}
+
+.card-titleK {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 80%;
+  text-align: center;
+}
+
+.cardK p {
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 80%;
+  line-height: 30px;
+}
+
+/* 3 часть тела сайта */
+
+.text3 {
+    text-align: center;
+    width: 680px;
+    margin: 170px 0 0 750px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.text4 {
+    text-align: justify;
+    width: 680px;
+    margin: 35px 0 0 750px;
+}
+
+.pic2 {
+    width: 690px;
+    height: 480px;
+    float: left;
+}
+
+.btn2 {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px 40px;
+    margin: 35px 0 0 280px;
+    width: 240px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+    background: #177E46;
+    border-radius: 18px;
+    border-width: 0;
+    outline: none;
+    cursor: pointer;
+    transition: 1.5s;
+ }
+    .btn2:before, .btn:after {
+        content: "";
+        position: absolute;
+        height: 200px;
+        left: -50%;
+        margin-top: -100px;
+        top: 50%;
+        width: 220px;
+        border-radius: 50%;
+        opacity: 0.3;
+        z-index: -1;
+        transform: scale(0);
+    }
+    .btn2:before {
+        background: #f4f4f4;
+        transition: .8s ease-out;
+    }
+    .btn2:after {
+        transition: .4s ease-in .3s;
+    }
+    .btn2:hover {
+        color: #177E46;
+    }
+    .btn2:hover:before, .btn2:hover:after {
+        opacity: 1;
+        transform: scale(4);
+    }
+
+/* 4 часть тела сайта */
+
+.text5 {
+  text-align: center;
+  width: 680px;
+  margin: 380px 0 0 80px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.text6 {
+  text-align: left;
+  width: 680px;
+  margin: 35px 0 0 80px;
+}
+.pic3 {
+  width: 558px;
+  height: 356px;
+  float: right;
+  border-radius: 80px;
+  margin: 370px 87px 0 80px;
+}
+
+/* подвал */
+.text7 {
+    margin-top: 200px;
+    margin-bottom: 60px;
+    font-size: 60px ;
+    font-family: 'Orbitron', sans-serif;
+}
+.text8 {
+    margin: 12px 0 0 99px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline;
+}
+.text9 {
+    margin: 12px 0 0 245px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline;
+}
+.text10 {
+    margin: 12px 0 0 539px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline;
+}
+
+.lineK {
+    width: 1400px;
+    background-color: rgba(207, 120, 19, 100%);
+    height: 2px;
+    border: none;
+    margin: 10px auto 0 auto;
+    opacity: 1;
+}
+
+.footer {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
+.footer:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.li {
+    display: flex;
+}
+.li1 {
+    display: flex;
+    padding-top: 15px;
+}
+
+.up {
+    float: left;
+}
+
+.footer1 {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 150px;
+}
+.footer1:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer2 {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 220px;
+}
+.footer2:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.text11 {
+    text-align: center;
+    font-size: 20px;
+    margin: 360px 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+}

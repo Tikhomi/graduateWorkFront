@@ -1,0 +1,57 @@
+.cardFC {
+    width: 430px;
+    height: 430px;
+    margin: 60px auto 360px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 23px 27px 57px 0px #ababab;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.titleFC {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.textFC {
+    margin: 10px 0 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #303030;
+    font-size: 16px;
+}
+
+.vvodFC {
+    padding: 5px 0 5px 0;
+    width: 340px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    border: solid 1px #777;
+    text-align: center;
+    display: block;
+}
+
+.butnFC {
+    font-family: 'Montserrat', sans-serif;
+    background: #177E46;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    width: auto;
+    height: 56px;
+    padding: 15px 39px;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.butnFC:hover {
+    background: #5f9c7b;
+}

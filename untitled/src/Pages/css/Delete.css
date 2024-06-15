@@ -1,0 +1,8 @@
+.cardDelete {
+    margin: 100px auto 45px auto;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}

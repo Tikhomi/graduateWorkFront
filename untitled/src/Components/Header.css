@@ -1,0 +1,31 @@
+.logo {
+    font-family: Orbitron;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.header {
+    background-color: #177E46;
+}
+
+a.nav-link {
+    margin: 0 0 0 25px;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.phone {
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.num {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}

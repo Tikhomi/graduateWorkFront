@@ -1,0 +1,28 @@
+.cardCabD {
+    width: 650px;
+    height: 610px;
+    margin: 160px auto 360px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 23px 27px 57px 0px #ababab;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.titleCabD {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 38px;
+}
+
+.textCabD {
+    margin: 10px 0 10px 60px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #303030;
+    font-size: 24px;
+}
